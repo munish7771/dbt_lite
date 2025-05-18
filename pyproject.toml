@@ -1,0 +1,16 @@
+[project]
+name = "dbt-lite"
+version = "0.1.0"
+description = "A lightweight DBT-like SQL transformation tool for Databricks SQL"
+authors = [{ name = "Sharma", email = "munish1117@gmail.com" }]
+dependencies = [
+    "networkx",
+    "databricks-sql-connector"
+]
+readme = "README.md"
+
+[project.scripts]
+dbt-lite = "dbt_lite.cli:main"
+
+[tool.setuptools]
+packages = ["dbt_lite"]

@@ -1,0 +1,8 @@
+Metadata-Version: 2.4
+Name: dbt-lite
+Version: 0.1.0
+Summary: A lightweight DBT-like SQL transformation tool for Databricks SQL
+Author-email: Sharma <munish1117@gmail.com>
+Description-Content-Type: text/markdown
+Requires-Dist: networkx
+Requires-Dist: databricks-sql-connector
